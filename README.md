@@ -17,7 +17,7 @@ Just follow these two steps to start the match!
 1. Run `/function scrub:friendlyghosts/volunteer` if you are the player who will be blinded.
 2. Run `/function scrub:friendlyghosts/start` to teleport everyone to the world center and start all the mechanisms.
 
-A user with operator permissions should run these commands, but if for some reason you don't want to or can't give operator permissions to the person who wishes to volunteer as the runner, use the command `/execute as <name_here> run /function scrub:friendlyghosts/volunteer` and replace `<name_here>` with the person you want.
+A user with operator permissions should run these commands, but if for some reason you don't want to or can't give operator permissions to the person who wishes to volunteer as the runner, use the command `/execute as <name_here> run function scrub:friendlyghosts/volunteer` and replace `<name_here>` with the person you want.
 
 You can also stop the session prematurely by running `/function scrub:friendlyghosts/reset` to revert to the game's state before the minigame.
 
