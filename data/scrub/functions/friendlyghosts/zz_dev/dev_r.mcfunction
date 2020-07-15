@@ -16,6 +16,10 @@ gamerule commandBlockOutput true
 # un-blind the blind
 effect clear @a[team=blind] minecraft:blindness
 
+# move spectators to a safe place and reset gamemodes
+tp @a[team=ghost] @p[team=blind]
+gamemode survival @a
+
 # remove teams
 team remove blind
 team remove ghost
